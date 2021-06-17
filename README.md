@@ -12,12 +12,14 @@ ponderada da prova especial com a média do aluno no ano letivo.
 - Média do ano letivo: média ponderada das três provas tal que as provas 2 e 3 possuem respectivamente pesos 20% e 40% maiores que a primeira prova.
 - Situação do aluno no ano letivo: "Aprovado", se a média for maior que 6. "Reprovado", se a média for menor que 4 e em "Prova Final" caso contrário.
 O aluno em "Prova Final" somente será aprovado se a média da nota da prova final com a média do ano letivo for maior ou igual a 5.
-- Critério de classificação para o campeonato: os 5 alunos com as maiores média do ano letivo
+- Critério de classificação para o campeonato: os 5 alunos com as maiores médias do ano letivo
 - Regra da competição: O resultado do campeonato é a média ponderada de todas provas feitas com peso 1 e a prova especial que terá peso 2
 
 ### Funcionalidades:
 
 - Lista resultado de todos os alunos no ano letivo
+- Filtro por "Situação" do ano letivo
+- Ordenação (crescente ou decrescente) por "Média" do ano letivo
 - Lista o resultado dos cinco melhores alunos no campeonato
 
 ### Descrição Técnica do Projeto:
