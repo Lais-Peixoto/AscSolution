@@ -29,5 +29,10 @@ O aluno em "Prova Final" somente será aprovado se a média da nota da prova fin
 - IDE: Visual Studio Code e Visual Studio 2019
 - Dados: Armazenados com SqlServer usando Entity Framework Core
 
+### Foto da Aplicação Funcionando (back-end e front-end):
 
+- Aplicação em funcionamento (back-end e front-end):
+![Aplicação em Funcionamento](https://github.com/Lais-Peixoto/AscSolution/blob/main/FotosDaAplica%C3%A7%C3%A3o.png)
 
+- Listagem do ano letivo:
+![Ano Letivo](https://github.com/Lais-Peixoto/AscSolution/blob/main/FrontEndAngular.png)
