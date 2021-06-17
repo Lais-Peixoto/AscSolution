@@ -2,8 +2,8 @@
 
 Aplicação para Web que lista o resultado do ano letivo para 60 alunos divididos entre 3 turmas e o resultado do campeonato
 com os 5 melhores alunos do período letivo.
-Cada aluno possui 3 notas de provas, a média do ano letivo e a situação no final do ano letivo (aprovado ou reprovado), 
-além do seu número de chamada, a nota da prova final caso necessário e sua respectiva turma.
+Cada aluno possui 3 notas de provas, a média do ano letivo e a situação no final do ano (aprovado ou reprovado), 
+além do seu número de chamada, a nota da prova final (caso necessário) e sua respectiva turma.
 Os alunos classificados para participar do campeonato são os 5 de maior média e o resultado é dado pela média
 ponderada da prova especial com a média do aluno no ano letivo.
 
