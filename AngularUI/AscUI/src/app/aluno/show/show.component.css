@@ -1,0 +1,35 @@
+.meu-filtro{
+  margin-top:1rem;
+  display:flex;
+  align-items: center;
+}
+
+.meu-filtro p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.meu-filtro input {
+  margin-left: 1rem;
+  max-width: 200px;
+}
+
+.minha-tabela {
+  margin-top:1rem;
+}
+
+.minha-classe p {
+  text-align:center;
+  margin: 0 1rem;
+}
+
+.centro {
+  text-align:center;
+}
+
+.minha-classe {
+  display: flex;
+
+  align-items:center;
+  justify-content:center;
+}

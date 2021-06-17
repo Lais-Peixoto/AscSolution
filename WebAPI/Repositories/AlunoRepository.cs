@@ -39,7 +39,10 @@ namespace WebAPI.Repositories
                     estudante.Nota2 = float.Parse(campos[3]);
                     estudante.Nota3 = float.Parse(campos[4]);
 
-                    var media = (float)((estudante.Nota1 + 1.2 * estudante.Nota2 + 1.4 * estudante.Nota3) / (1 + 1.2 + 1.4));
+                    var aux = (decimal)((estudante.Nota1 + 1.2 * estudante.Nota2 + 1.4 * estudante.Nota3) / (1 + 1.2 + 1.4));
+                    aux = Math.Round(aux, 1);
+
+                    var media = (float)(aux);
                     estudante.Media = media;
 
                     if (media > 6)
@@ -55,8 +58,15 @@ namespace WebAPI.Repositories
                     else
                     {
                         var rnd = new Random();
-                        estudante.ProvaFinal = (float)(rnd.NextDouble() * 10);
-                        media = (media + estudante.ProvaFinal) / 2;
+
+                        var auxPF = (decimal)(rnd.NextDouble() * 10);
+                        auxPF = Math.Round(auxPF, 1);
+
+                        var auxMF = (decimal)((media + estudante.ProvaFinal) / 2);
+                        auxMF = Math.Round(auxMF, 1);
+
+                        estudante.ProvaFinal = (float)(auxPF);
+                        media = (float)auxMF;
                         estudante.Media = media;
 
                         if (media >= 5)

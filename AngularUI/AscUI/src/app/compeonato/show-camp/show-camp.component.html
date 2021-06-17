@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr class="centro">
+      <th>Turma</th>
+      <th>Nº da chamada</th>
+      <th>Resultado</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let dataItem of CompetidoresList; let i = index;" class="centro">
+      <td>{{dataItem.competidor.turma}}</td>
+      <td>{{dataItem.competidor.chamada}}</td>
+      <td>{{dataItem.resultado}}</td>
+    </tr>
+  </tbody>
+  
+</table>

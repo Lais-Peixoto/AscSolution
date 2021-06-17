@@ -18,6 +18,9 @@ namespace WebAPI
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Aluno>().HasKey(k => k.Id);
+
+            //modelBuilder.Entity<Aluno>().Property(p => p.Media).HasPrecision(1);
+            //modelBuilder.Entity<Aluno>().Property(p => p.Media).HasColumnType("float(1)");
         }
 
         public DbSet<WebAPI.Models.Aluno> Aluno { get; set; }

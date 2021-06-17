@@ -57,7 +57,9 @@ namespace WebAPI.Controllers
             foreach (var aluno in alunos)
             {
                 var rnd = new Random();
-                var notaCompeticao = (float)((aluno.Nota1 + aluno.Nota2 + aluno.Nota3 + 2 * (rnd.NextDouble() * 10)) / 5);
+                var aux = (decimal)((aluno.Nota1 + aluno.Nota2 + aluno.Nota3 + 2 * (rnd.NextDouble() * 10)) / 5);
+                aux = Math.Round(aux, 1);
+                var notaCompeticao = (float)aux;
 
                 var classificado = new Competidores(aluno, notaCompeticao);
 
