@@ -36,3 +36,7 @@ O aluno em "Prova Final" somente será aprovado se a média da nota da prova fin
 
 - Listagem do ano letivo:
 ![Ano Letivo](https://github.com/Lais-Peixoto/AscSolution/blob/main/FrontEndAngular.png)
+
+- Listagem do campeonato:
+![Campeonato](https://github.com/Lais-Peixoto/AscSolution/blob/main/FrontEndAngular2.png)
+
