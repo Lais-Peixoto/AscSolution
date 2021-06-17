@@ -32,3 +32,4 @@ O aluno em "Prova Final" somente será aprovado se a média da nota da prova fin
 ### Foto da Aplicação Funcionando (back-end e front-end):
 
 ![Aplicação em Funcionamento](https://github.com/Lais-Peixoto/AscSolution/blob/main/FotosDaAplica%C3%A7%C3%A3o.png)
+![Ano Letivo](https://github.com/Lais-Peixoto/AscSolution/blob/main/FrontEndAngular.png)
