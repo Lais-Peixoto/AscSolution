@@ -1,4 +1,4 @@
-# AscSolution
+# Projeto Escola
 
 Aplicação para Web que lista o resultado do ano letivo para 60 alunos divididos entre 3 turmas e o resultado do campeonato
 com os 5 melhores alunos do período letivo.
